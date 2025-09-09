@@ -1,0 +1,13 @@
+server.port: 8282
+
+spring:
+  application:
+    name: service-b
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: mydb
+      username: admin
+      password: admin
+      authentication-database: admin
